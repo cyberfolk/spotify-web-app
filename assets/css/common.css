@@ -31,17 +31,27 @@ a:hover {
 }
 
 :root {
-    --sp_debug_height: 600px;
     --sp_shadow: #9d9d9d;
-    --sp_white: white;
-    --sp_black: black;
     --sp_font: 'PT Sans', sans-serif;
     --icon-size: .8em;
     --gutter: .5em;
-    --sp_secondary: #0084fd;
-    --sp_primary: #9792e4;
-    --sp_light: #b5ddff;
-    --sp_dark: #333333;
+
+    --sp_bottom_h: 70px;
+    --sp_sidebar_w: 70px;
+    --sp_sidebar_bottom_h: 60px;
+
+    --sp_content_banner_bg: #080B12;
+    --sp_content_bg: #141922;
+    --sp_bottom_bg: #282828;
+    --sp_black: black;
+    --sp_white: white;
+
+    --sp_secondary: #adff2f;
+    --sp_bar_hover: #c1c1c1;
+    --sp_bar_down: #5a5a5a;
+    --sp_icon_1: #d2d2d2;
+    --sp_icon_2: #a3a3a3;
+    --sp_txt: #717171;
 }
 
 /* #endregion Common */
