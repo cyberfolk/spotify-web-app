@@ -1,6 +1,6 @@
 /* #endregion media query */
-/* #region Media-Query-481px */
-@media screen and (min-width: 481px) {
+/* #region Media-Query-560px */
+@media screen and (min-width: 560px) {
     /* #region top */
     /* #region content */
     /* #endregion content */
@@ -22,7 +22,7 @@
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-481px*/
+/* #endregion Media-Query-560px*/
 /* #region Media-Query-769px */
 @media screen and (min-width: 769px) {
     /* #region top */
