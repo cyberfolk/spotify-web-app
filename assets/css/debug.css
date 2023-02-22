@@ -9,11 +9,6 @@
     padding: 1rem;
 }
 
-.debug .container_md {
-    background-color: orangered;
-    padding: 1rem;
-}
-
 .debug .row {
     background-color: brown;
     padding: 1rem;
@@ -25,46 +20,51 @@
 }
 
 /* #endregion Grid */
+
 /* #region style */
-/* #region site_header */
-.debug #site_header {
+/* #region top */
+.debug .top {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion site_header */
-/* #region site_main */
-/* #region Section_1 */
-.debug #Section_1 {
-    /* Cambiare nome alla sezione caso per caso */
+/* #region main */
+.debug .main {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion Section_1 */
-/* #region Section_2 */
-.debug #Section_2 {
-    /* Cambiare nome alla sezione caso per caso */
+/* #endregion main */
+
+/* #region sidebar */
+.debug .sidebar {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion Section_2 */
-/* #region Section_3 */
-.debug .Section_3 {
-    /* Cambiare nome alla sezione caso per caso */
+/* #region sidebar_top */
+.debug .sidebar_top {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion Section_3 */
-/* #endregion site_main */
-/* #region site_footer */
-.debug #site_footer {
+/* #endregion sidebar_top */
+/* #region sidebar_bottom */
+.debug .sidebar_bottom {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion site_footer */
+/* #endregion sidebar_bottom */
+/* #endregion sidebar */
+/* #endregion top */
+
+/* #region bottom */
+.debug .bottom {
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion bottom */
 /* #endregion style */
 /* #endregion Debug */

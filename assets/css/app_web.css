@@ -3,21 +3,21 @@ body {
     overflow: hidden;
 }
 
-#app-header {
+/* #app-header {
     height: var(--sp_app_header_h);
-}
+} */
 
-#app-main {
-    height: calc(100vh - var(--sp_app_footer_h) - var(--sp_app_header_h));
+.top {
+    height: calc(100vh - var(--sp_bottom_h));
     overflow-y: auto;
 }
 
-#app-main .first-element-in-the-main {
+.top .main {
     height: 100%;
 }
 
-#app-footer {
-    height: var(--sp_app_footer_h);
+.bottom {
+    height: var(--sp_bottom_h);
 }
 
 /* #endregion app-web */

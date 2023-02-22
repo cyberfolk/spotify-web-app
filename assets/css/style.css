@@ -1,17 +1,19 @@
 /* #region style */
-/* #region site_header */
-/* #endregion site_header */
-/* #region site_main */
-/* #region section_1 */
-/* Cambiare nome alla sezione caso per caso */
-/* #endregion section_1 */
-/* #region section_2 */
-/* Cambiare nome alla sezione caso per caso */
-/* #endregion section_2 */
-/* #region section_3 */
-/* Cambiare nome alla sezione caso per caso */
-/* #endregion section_3 */
-/* #endregion site_main */
-/* #region site_footer */
-/* #endregion site_footer */
+
+/* #region top */
+/* #region main */
+/* #endregion main */
+
+/* #region sidebar */
+/* #region sidebar_top */
+/* #endregion sidebar_top */
+
+/* #region sidebar_bottom */
+/* #endregion sidebar_bottom */
+/* #endregion sidebar */
+/* #endregion top */
+
+/* #region bottom */
+/* #endregion bottom */
+
 /* #endregion style */
