@@ -33,6 +33,10 @@
     /* gap: 0.5rem; */
 }
 
+.list_no_point {
+    list-style: none;
+}
+
 .txt_a_c {
     text-align: center;
 }
