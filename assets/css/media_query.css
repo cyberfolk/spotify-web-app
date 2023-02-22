@@ -2,8 +2,8 @@
 /* #region Media-Query-481px */
 @media screen and (min-width: 481px) {
     /* #region top */
-    /* #region main */
-    /* #endregion main */
+    /* #region content */
+    /* #endregion content */
 
     /* #region sidebar */
     /* #region sidebar_top */
@@ -22,8 +22,8 @@
 /* #region Media-Query-769px */
 @media screen and (min-width: 769px) {
     /* #region top */
-    /* #region main */
-    /* #endregion main */
+    /* #region content */
+    /* #endregion content */
 
     /* #region sidebar */
     /* #region sidebar_top */
@@ -42,8 +42,8 @@
 /* #region Media-Query-1280px */
 @media screen and (min-width: 1280px) {
     /* #region top */
-    /* #region main */
-    /* #endregion main */
+    /* #region content */
+    /* #endregion content */
 
     /* #region sidebar */
     /* #region sidebar_top */

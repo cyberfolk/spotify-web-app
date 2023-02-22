@@ -28,13 +28,13 @@
     padding: 1rem;
 }
 
-/* #region main */
-.debug .main {
+/* #region content */
+.debug .content {
     /* Il background-color lo metto in style.css */
     padding: 1rem;
 }
 
-/* #endregion main */
+/* #endregion content */
 
 /* #region sidebar */
 .debug .sidebar {
