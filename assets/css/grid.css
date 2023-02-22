@@ -152,7 +152,7 @@
 /* #endregion col_xs_X */
 
 /* #region col_s_X */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 560px) {
     .col_s_p100 {
         width: 100%;
         /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */

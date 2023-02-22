@@ -59,8 +59,8 @@
     flex-direction: column;
 }
 
-.console {
-    align-self: center;
+.console > .list_inline {
+    justify-content: space-between;
 }
 
 .bottom .bar {
