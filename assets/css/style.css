@@ -45,5 +45,24 @@
     background-color: var(--sp_bottom_bg);
 }
 
+.bottom .row {
+    justify-content: space-between;
+}
+
+.bottom .menu {
+    display: flex;
+}
+
+.bottom .menu.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .bar {
+    background-color: var(--sp_bar_down);
+    height: 0.3rem;
+    width: 100%;
+}
+
 /* #endregion bottom */
 /* #endregion app-web */
