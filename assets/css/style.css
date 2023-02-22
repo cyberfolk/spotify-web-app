@@ -49,7 +49,8 @@
     justify-content: space-between;
 }
 
-.bottom .menu {
+.bottom .menu,
+.bottom .tracker {
     display: flex;
 }
 
@@ -58,10 +59,19 @@
     flex-direction: column;
 }
 
+.console {
+    align-self: center;
+}
+
 .bottom .bar {
     background-color: var(--sp_bar_down);
     height: 0.3rem;
-    width: 100%;
+    flex-basis: 100%;
+}
+
+.menu.right,
+.tracker {
+    align-items: center;
 }
 
 /* #endregion bottom */
