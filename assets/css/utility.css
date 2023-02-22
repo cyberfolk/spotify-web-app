@@ -1,7 +1,11 @@
 /* #region Utilities */
 
-.txt_a_c {
-    text-align: center;
+.p_sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    /** Ricordarsi di mettere il margin-bottom nel main */
 }
 
 .circletag {
@@ -29,12 +33,8 @@
     /* gap: 0.5rem; */
 }
 
-.p_sticky {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    /** Ricordarsi di mettere il margin-bottom nel main */
+.txt_a_c {
+    text-align: center;
 }
 
 /* #region Click - ON/OFF */
@@ -123,28 +123,28 @@
 }
 
 .btn_dark {
-    background-color: var(--rl_dark);
-    color: var(--rl_lighter)
+    background-color: var(--sp_dark);
+    color: var(--sp_lighter)
 }
 
 .btn_secondary {
-    background-color: var(--rl_secondary);
-    color: var(--rl_white);
+    background-color: var(--sp_secondary);
+    color: var(--sp_white);
 }
 
 .btn_light {
-    background-color: var(--rl_white);
-    color: var(--rl_primary);
+    background-color: var(--sp_white);
+    color: var(--sp_primary);
 }
 
 .btn_primary {
-    background-color: var(--rl_primary);
-    color: var(--rl_white);
+    background-color: var(--sp_primary);
+    color: var(--sp_white);
 }
 
 .btn_white {
-    background-color: var(--rl_white);
-    color: var(--rl_black);
+    background-color: var(--sp_white);
+    color: var(--sp_black);
 }
 
 .btn {
@@ -161,7 +161,7 @@
 }
 
 .btn:hover {
-    filter: drop-shadow(0 0 10px var(--rl_shadow)) invert(2%);
+    filter: drop-shadow(0 0 10px var(--sp_shadow)) invert(2%);
 }
 
 /* #endregion Button */

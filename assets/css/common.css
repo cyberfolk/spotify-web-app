@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    font-family: var(--rl_font);
+    font-family: var(--sp_font);
 }
 
 
@@ -31,17 +31,17 @@ a:hover {
 }
 
 :root {
-    --rl_debug_height: 600px;
-    --rl_shadow: #9d9d9d;
-    --rl_white: white;
-    --rl_black: black;
-    --rl_font: 'PT Sans', sans-serif;
+    --sp_debug_height: 600px;
+    --sp_shadow: #9d9d9d;
+    --sp_white: white;
+    --sp_black: black;
+    --sp_font: 'PT Sans', sans-serif;
     --icon-size: .8em;
     --gutter: .5em;
-    --rl_secondary: #0084fd;
-    --rl_primary: #9792e4;
-    --rl_light: #b5ddff;
-    --rl_dark: #333333;
+    --sp_secondary: #0084fd;
+    --sp_primary: #9792e4;
+    --sp_light: #b5ddff;
+    --sp_dark: #333333;
 }
 
 /* #endregion Common */
