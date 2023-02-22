@@ -6,6 +6,10 @@
     /* #endregion content */
 
     /* #region sidebar */
+    .top > .sidebar {
+        width: 234px;
+    }
+
     /* #region sidebar_top */
     /* #endregion sidebar_top */
 

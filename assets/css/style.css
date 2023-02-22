@@ -1,14 +1,49 @@
-/* #region style */
+/* #region app-web */
 /* #region top */
+.top {
+    height: calc(100vh - var(--sp_bottom_h));
+    display: flex
+}
+
 /* #region content */
+.top > .content {
+    width: calc(100% - var(--sp_sidebar_w));
+    overflow-y: auto;
+    background-color: var(--sp_content_bg);
+}
+
 /* #endregion content */
+
 /* #region sidebar */
+.top > .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: var(--sp_sidebar_w);
+    overflow: hidden;
+    background-color: var(--sp_black);
+}
+
 /* #region sidebar_top */
+.top .sidebar_top {
+    height: calc(100% - var(--sp_sidebar_bottom_h));
+}
+
 /* #endregion sidebar_top */
+
 /* #region sidebar_bottom */
+.top .sidebar_bottom {
+    height: var(--sp_sidebar_bottom_h);
+}
+
 /* #endregion sidebar_bottom */
 /* #endregion sidebar */
 /* #endregion top */
+
 /* #region bottom */
+.bottom {
+    height: var(--sp_bottom_h);
+    background-color: var(--sp_bottom_bg);
+}
+
 /* #endregion bottom */
-/* #endregion style */
+/* #endregion app-web */
