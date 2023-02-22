@@ -1,0 +1,425 @@
+/* #region Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /** Se le col_x hanno un padding-1 scommentare: "margin: 0 -1rem;" */
+    /** In modo da incolonnare perfettamente tutti gli elementi sotto il container */
+    /* margin: 0 -1rem; */
+}
+
+/* #region Container */
+.container {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+/* #endregion Container */
+/* #region col_X */
+.col_p100 {
+    width: 100%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p90 {
+    width: 90%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p80 {
+    width: 80%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p70 {
+    width: 70%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p60 {
+    width: 60%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_50 {
+    width: 50%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p40 {
+    width: 40%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p30 {
+    width: 30%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p20 {
+    width: 20%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_p10 {
+    width: 10%;
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_12 {
+    width: calc((100% / 12) * 12);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_11 {
+    width: calc((100% / 12) * 11);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_10 {
+    width: calc((100% / 12) * 10);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_9 {
+    width: calc((100% / 12) * 9);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_8 {
+    width: calc((100% / 12) * 8);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_7 {
+    width: calc((100% / 12) * 7);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_6 {
+    width: calc((100% / 12) * 6);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_5 {
+    width: calc((100% / 12) * 5);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_4 {
+    width: calc((100% / 12) * 4);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_3 {
+    width: calc((100% / 12) * 3);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_2 {
+    width: calc((100% / 12) * 2);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+.col_1 {
+    width: calc((100% / 12) * 1);
+    /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+    /* padding: 1rem; */
+}
+
+/* #endregion col_X */
+/* #region col_md_X */
+@media screen and (min-width: 768px) {
+
+    .col_md_p100 {
+        width: 100%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p90 {
+        width: 90%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p80 {
+        width: 80%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p70 {
+        width: 70%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p60 {
+        width: 60%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_50 {
+        width: 50%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p40 {
+        width: 40%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p30 {
+        width: 30%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p20 {
+        width: 20%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_p10 {
+        width: 10%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_12 {
+        width: calc((100% / 12) * 12);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_11 {
+        width: calc((100% / 12) * 11);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_10 {
+        width: calc((100% / 12) * 10);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_9 {
+        width: calc((100% / 12) * 9);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_8 {
+        width: calc((100% / 12) * 8);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_7 {
+        width: calc((100% / 12) * 7);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_6 {
+        width: calc((100% / 12) * 6);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_5 {
+        width: calc((100% / 12) * 5);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_4 {
+        width: calc((100% / 12) * 4);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_3 {
+        width: calc((100% / 12) * 3);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_2 {
+        width: calc((100% / 12) * 2);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_md_1 {
+        width: calc((100% / 12) * 1);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+}
+
+/* #endregion col_md_X */
+/* #region col_lg_X */
+@media screen and (min-width: 1200px) {
+    .col_lg_p100 {
+        width: 100%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p90 {
+        width: 90%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p80 {
+        width: 80%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p70 {
+        width: 70%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p60 {
+        width: 60%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_50 {
+        width: 50%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p40 {
+        width: 40%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p30 {
+        width: 30%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p20 {
+        width: 20%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_p10 {
+        width: 10%;
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_12 {
+        width: calc((100% / 12) * 12);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_11 {
+        width: calc((100% / 12) * 11);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_10 {
+        width: calc((100% / 12) * 10);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_9 {
+        width: calc((100% / 12) * 9);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_8 {
+        width: calc((100% / 12) * 8);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_7 {
+        width: calc((100% / 12) * 7);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_6 {
+        width: calc((100% / 12) * 6);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_5 {
+        width: calc((100% / 12) * 5);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_4 {
+        width: calc((100% / 12) * 4);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_3 {
+        width: calc((100% / 12) * 3);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_2 {
+        width: calc((100% / 12) * 2);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+
+    .col_lg_1 {
+        width: calc((100% / 12) * 1);
+        /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
+        /* padding: 1rem; */
+    }
+}
+
+/* #endregion col_lg_X */
+/* #endregion Grid */

@@ -1,0 +1,70 @@
+/* #region Debug */
+* {
+    border: 1px dashed black;
+}
+
+/* #region Grid */
+.debug .container {
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.debug .container_md {
+    background-color: orangered;
+    padding: 1rem;
+}
+
+.debug .row {
+    background-color: brown;
+    padding: 1rem;
+}
+
+.debug [class^="col_"] {
+    background-color: aqua;
+    padding: 1rem;
+}
+
+/* #endregion Grid */
+/* #region style */
+/* #region site_header */
+.debug #site_header {
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion site_header */
+/* #region site_main */
+/* #region Section_1 */
+.debug #Section_1 {
+    /* Cambiare nome alla sezione caso per caso */
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion Section_1 */
+/* #region Section_2 */
+.debug #Section_2 {
+    /* Cambiare nome alla sezione caso per caso */
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion Section_2 */
+/* #region Section_3 */
+.debug .Section_3 {
+    /* Cambiare nome alla sezione caso per caso */
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion Section_3 */
+/* #endregion site_main */
+/* #region site_footer */
+.debug #site_footer {
+    /* Il background-color lo metto in style.css */
+    padding: 1rem;
+}
+
+/* #endregion site_footer */
+/* #endregion style */
+/* #endregion Debug */
