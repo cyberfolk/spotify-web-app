@@ -39,15 +39,15 @@
     /* #endregion top */
 
     /* #region bottom */
-    .menu.left .track_info {
+    .bottom .menu.left .track_info {
         padding-right: 2rem;
     }
 
-    .menu.right i {
+    .bottom .menu.right i {
         margin-right: 0.8rem;
     }
 
-    .menu.right > .bar {
+    .bottom .menu.right > .bar {
         flex-grow: 0;
         flex-basis: 50%;
     }
@@ -72,7 +72,7 @@
     /* #endregion top */
 
     /* #region bottom */
-    .menu.center .bar {
+    .bottom .menu.center .bar {
         flex-grow: 0;
         flex-basis: 60%;
     }

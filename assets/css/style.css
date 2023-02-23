@@ -60,19 +60,19 @@ body {
     justify-content: space-between;
 }
 
-.menu {
+.bottom .menu {
     display: flex;
     align-items: center;
 }
 
-.menu.left {
+.bottom .menu.left {
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     padding-left: 0.8rem;
     justify-content: start;
 }
 
-.menu.left .track_cover {
+.bottom .menu.left .track_cover {
     display: flex;
     align-items: center;
     height: 100%;
@@ -80,16 +80,16 @@ body {
     padding-bottom: 0.5rem;
 }
 
-.menu.left .track_info {
+.bottom .menu.left .track_info {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
 }
 
-.menu.left img {
+.bottom .menu.left img {
     max-height: 100%;
 }
 
-.menu.center {
+.bottom .menu.center {
     justify-content: stretch;
 
 }
@@ -100,35 +100,35 @@ body {
     flex-basis: 100%;
 }
 
-.menu.center > .console > .list_inline {
+.bottom .menu.center .list_inline {
     justify-content: center;
     align-items: center;
     padding-bottom: 0.7rem;
 }
 
-.menu.center > .console > .list_inline .fa-circle-play {
+.bottom .menu.center .fa-circle-play {
     margin: 0 1.8rem;
 }
 
-.menu.center > .console > .list_inline .fa-backward-step {
+.bottom .menu.center .fa-backward-step {
     margin-left: 1.2rem;
 }
 
-.menu.center > .console > .list_inline .fa-forward-step {
+.bottom .menu.center .fa-forward-step {
     margin-right: 1.2rem;
 }
 
-.tracker {
+.bottom .tracker {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.tracker .time_now {
+.bottom .tracker .time_now {
     margin-right: 0.6rem;
 }
 
-.tracker .time_end {
+.bottom .tracker .time_end {
     margin-left: 0.6rem;
 }
 
@@ -139,13 +139,13 @@ body {
     flex-grow: 1;
 }
 
-.menu.right {
+.bottom .menu.right {
     padding-right: 0.8rem;
     padding-left: 0.8rem;
     justify-content: right;
 }
 
-.menu.right i {
+.bottom .menu.right i {
     margin-right: 0.6rem;
 }
 
