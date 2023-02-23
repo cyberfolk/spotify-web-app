@@ -29,9 +29,10 @@ body {
 }
 
 /* #region sidebar_top */
-.top .sidebar_top {
+.sidebar_top {
     height: calc(100% - var(--sp_sidebar_bottom_h));
     padding: 0 0.6rem;
+    font-size: 0.8rem;
 }
 
 .sidebar_top .logo {
@@ -54,6 +55,7 @@ body {
 }
 
 .sidebar_top .action .action_name {
+    padding-left: 0.1rem;
     display: none;
     vertical-align: 50%;
 }

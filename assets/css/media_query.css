@@ -12,12 +12,14 @@
 
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-    .sidebar_top .logo svg {
-        height: 100%;
+    .sidebar_top {
+        padding-top: 1rem;
+        padding-right: 4rem;
+        padding-left: 1rem;
     }
 
     .sidebar_top .action svg {
-        height: 2rem;
+        height: 1.5rem;
     }
 
     .sidebar_top .action .action_name {
