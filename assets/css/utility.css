@@ -136,6 +136,10 @@
     justify-content: space-between;
 }
 
+.jc_fe {
+    justify-content: flex-end;
+}
+
 /* #endregion Flex */
 
 /* #region Button */
@@ -182,15 +186,15 @@
 
 .btn {
     padding: 0.5rem 2.5rem;
-    border: none;
+    border: 1px solid var(--sp_white);
     font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
     text-decoration: none;
     border-radius: 1rem;
     transition: filter 1s;
     /* Per evitare che il bottoni assuma una width 100% */
     display: inline-block;
+    color: var(--sp_white);
+    background-color: var(--sp_content_bg);
 }
 
 .btn:hover {
