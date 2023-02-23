@@ -320,6 +320,11 @@
     padding-left: 2rem;
 }
 
+.px_1_5 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 .px_1 {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -359,6 +364,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+.py_1_5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
 
 .py_1 {
     padding-top: 1rem;
@@ -409,8 +420,16 @@
     padding-bottom: 2rem;
 }
 
+.pb_1_5 {
+    padding-bottom: 1.5rem;
+}
+
 .pb_1 {
     padding-bottom: 1rem;
+}
+
+.pb_05 {
+    padding-bottom: 0.5rem;
 }
 
 .pl_6 {
