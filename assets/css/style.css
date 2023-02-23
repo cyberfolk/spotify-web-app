@@ -72,9 +72,6 @@ body {
     justify-content: start;
 }
 
-
-
-
 .menu.left .track_cover {
     display: flex;
     align-items: center;
@@ -93,7 +90,8 @@ body {
 }
 
 .menu.center {
-    justify-content: center;
+    justify-content: stretch;
+
 }
 
 .bottom .console {
@@ -123,6 +121,7 @@ body {
 .tracker {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .tracker .time_now {

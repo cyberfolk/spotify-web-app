@@ -39,12 +39,17 @@
     /* #endregion top */
 
     /* #region bottom */
-    .bottom .console {
-        flex-basis: 75%;
+    .menu.left .track_info {
+        padding-right: 2rem;
     }
 
-    .menu.right {
-        flex-basis: 75%;
+    .menu.right i {
+        margin-right: 0.8rem;
+    }
+
+    .menu.right > .bar {
+        flex-grow: 0;
+        flex-basis: 50%;
     }
 
     /* #endregion bottom */
@@ -67,12 +72,9 @@
     /* #endregion top */
 
     /* #region bottom */
-    .bottom .console {
+    .menu.center .bar {
+        flex-grow: 0;
         flex-basis: 60%;
-    }
-
-    .menu.right > .bar {
-        flex-basis: 10%;
     }
 
     /* #endregion bottom */
