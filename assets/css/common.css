@@ -24,11 +24,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    /* Possibili Ovveride in style.css*/
+/* a:hover {
+    /* Possibili Ovveride in style.css
     font-weight: bold;
     font-size: 1.1rem;
-}
+} */
 
 i {
     color: var(--sp_white);

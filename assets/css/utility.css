@@ -190,7 +190,7 @@
     font-size: 0.9rem;
     text-decoration: none;
     border-radius: 1rem;
-    transition: filter 1s;
+    transition: filter 0.5s;
     /* Per evitare che il bottoni assuma una width 100% */
     display: inline-block;
     color: var(--sp_white);
@@ -198,7 +198,7 @@
 }
 
 .btn:hover {
-    filter: drop-shadow(0 0 10px var(--sp_shadow)) invert(2%);
+    transform: scale(1.2);
 }
 
 /* #endregion Button */
