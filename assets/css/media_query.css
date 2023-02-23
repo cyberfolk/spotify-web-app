@@ -83,15 +83,15 @@
     /* #endregion top */
 
     /* #region bottom */
-    .bottom .menu.left .track_info {
+    .bottom .menu.left_ .track_info {
         padding-right: 2rem;
     }
 
-    .bottom .menu.right i {
+    .bottom .menu.right_ i {
         margin-right: 0.8rem;
     }
 
-    .bottom .menu.right > .bar {
+    .bottom .menu.right_ > .bar {
         flex-grow: 0;
         flex-basis: 50%;
     }
@@ -116,7 +116,7 @@
     /* #endregion top */
 
     /* #region bottom */
-    .bottom .menu.center .bar {
+    .bottom .menu.center_ .bar {
         flex-grow: 0;
         flex-basis: 60%;
     }
