@@ -26,8 +26,8 @@
         display: inline-block;
     }
 
-    .playlist h2 {
-        font-size: 0.9rem;
+    .sidebar_top .playlist {
+        display: block;
     }
 
     /* #region sidebar_bottom */

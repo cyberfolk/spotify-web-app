@@ -33,6 +33,7 @@ body {
     height: calc(100% - var(--sp_sidebar_bottom_h));
     padding: 0 0.6rem;
     font-size: 0.8rem;
+    overflow-y: auto;
 }
 
 .sidebar_top .logo {
@@ -60,9 +61,22 @@ body {
     vertical-align: 50%;
 }
 
-.playlist h2 {
+.sidebar_top .playlist {
+    display: none;
+}
+
+.sidebar_top .playlist h2 {
     padding-top: 1.5rem;
     font-size: 0.9rem;
+}
+
+.sidebar_top .action i {
+    font-size: 2rem;
+    padding-right: 0.2rem;
+}
+
+.sidebar_top .playlist .list_no_point li {
+    margin-top: 1rem;
 }
 
 /* #endregion sidebar_top */
@@ -70,6 +84,7 @@ body {
 /* #region sidebar_bottom */
 .top .sidebar_bottom {
     height: var(--sp_sidebar_bottom_h);
+    background-color: red;
 }
 
 /* #endregion sidebar_bottom */
