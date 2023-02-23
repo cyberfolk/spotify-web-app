@@ -12,6 +12,17 @@
 
     /* #region sidebar_top */
     /* #endregion sidebar_top */
+    .sidebar_top .logo svg {
+        height: 100%;
+    }
+
+    .sidebar_top .action svg {
+        height: 2rem;
+    }
+
+    .sidebar_top .action .action_name {
+        display: inline-block;
+    }
 
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
@@ -31,12 +42,7 @@
 
     /* #region sidebar */
     /* #region sidebar_top */
-    .sidebar_top .action .action_name {
-        display: block;
-    }
-
     /* #endregion sidebar_top */
-
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */

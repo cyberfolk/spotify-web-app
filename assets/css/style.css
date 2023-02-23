@@ -31,18 +31,32 @@ body {
 /* #region sidebar_top */
 .top .sidebar_top {
     height: calc(100% - var(--sp_sidebar_bottom_h));
+    padding: 0 0.6rem;
 }
 
-.sidebar_top .logo,
+.sidebar_top .logo {
+    overflow: hidden;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.sidebar_top .logo svg {
+    height: calc(var(--sp_sidebar_w) - 2*0.6rem);
+}
+
 .sidebar_top .action {
-    padding: 0.3rem 0.6rem;
+    padding: 0 0.1rem;
+    padding-top: 0.3rem;
+}
+
+.sidebar_top .action_icon {
+    display: inline;
 }
 
 .sidebar_top .action .action_name {
     display: none;
+    vertical-align: 50%;
 }
-
-
 
 /* #endregion sidebar_top */
 
