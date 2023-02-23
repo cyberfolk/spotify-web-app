@@ -28,7 +28,7 @@ body {
     color: var(--sp_txt);
     padding: 0 0.7rem;
     font-size: 0.8rem;
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.5rem;
 }
 
 /* #region sidebar_top */
@@ -89,6 +89,8 @@ body {
 }
 
 .sidebar_bottom .spacer {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
     display: none;
 }
 
@@ -96,6 +98,17 @@ body {
     padding-left: 0.1rem;
     display: none;
     vertical-align: 30%;
+}
+
+.sidebar_bottom .user {
+    display: inline;
+}
+
+.sidebar_bottom .user .user_name {
+    padding-left: 0.2rem;
+    display: none;
+    vertical-align: 40%;
+    font-size: 1rem;
 }
 
 

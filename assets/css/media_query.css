@@ -47,7 +47,6 @@
 
     .sidebar_bottom .spacer {
         display: block;
-        margin: 0.5rem 0;
     }
 
     .sidebar_bottom .user {
@@ -56,6 +55,14 @@
 
     .sidebar_bottom .download .action_name {
         display: inline-block;
+    }
+
+    .sidebar_bottom .user .user_name {
+        display: inline-block;
+    }
+
+    .sidebar_bottom .user svg {
+        width: 1.5rem;
     }
 
 
