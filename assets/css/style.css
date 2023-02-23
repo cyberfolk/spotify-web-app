@@ -42,6 +42,26 @@ body {
     font-weight: bold;
 }
 
+.content .track .cover:hover img {
+    filter: brightness(0.5);
+}
+
+.content .track .cover {
+    position: relative;
+}
+
+.content .track .cover:hover::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url("../img/circle-play-regular.svg");
+    z-index: 1;
+    filter: invert(100%);
+    transform: scale(0.3);
+}
+
 .content .track_info {
     text-align: center;
 }
