@@ -8,14 +8,19 @@
     /* #region sidebar */
     .top > .sidebar {
         width: 230px;
+        padding: 1rem;
     }
 
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-    .sidebar_top {
-        padding-top: 1rem;
-        padding-right: 2rem;
-        padding-left: 1rem;
+
+    .sidebar_top .spotify-logo--text {
+        display: block;
+        padding-right: 3rem;
+    }
+
+    .sidebar_top .spotify-logo {
+        display: none;
     }
 
     .sidebar_top .action svg {
@@ -31,6 +36,30 @@
     }
 
     /* #region sidebar_bottom */
+    .sidebar_bottom .download {
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .sidebar_bottom .download svg {
+        height: 1rem;
+    }
+
+    .sidebar_bottom .spacer {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .sidebar_bottom .user {
+        width: 1.5rem;
+    }
+
+    .sidebar_bottom .download .action_name {
+        display: inline-block;
+    }
+
+
+
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
