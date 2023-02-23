@@ -25,12 +25,24 @@ body {
     width: var(--sp_sidebar_w);
     overflow: hidden;
     background-color: var(--sp_black);
+    color: var(--sp_txt);
 }
 
 /* #region sidebar_top */
 .top .sidebar_top {
     height: calc(100% - var(--sp_sidebar_bottom_h));
 }
+
+.sidebar_top .logo,
+.sidebar_top .action {
+    padding: 0.3rem 0.6rem;
+}
+
+.sidebar_top .action .action_name {
+    display: none;
+}
+
+
 
 /* #endregion sidebar_top */
 

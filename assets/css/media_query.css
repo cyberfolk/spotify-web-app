@@ -31,6 +31,10 @@
 
     /* #region sidebar */
     /* #region sidebar_top */
+    .sidebar_top .action .action_name {
+        display: block;
+    }
+
     /* #endregion sidebar_top */
 
     /* #region sidebar_bottom */
