@@ -26,6 +26,10 @@
         display: inline-block;
     }
 
+    .playlist h2 {
+        font-size: 0.9rem;
+    }
+
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
