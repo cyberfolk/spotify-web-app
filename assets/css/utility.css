@@ -330,6 +330,11 @@
     padding-left: 0.5rem;
 }
 
+.px_025 {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
 .py_8 {
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -512,6 +517,11 @@
 .mx_-05 {
     margin-left: -0.5rem;
     margin-right: -0.5rem;
+}
+
+.mx_-025 {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
 }
 
 .mx_-1 {

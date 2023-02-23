@@ -14,7 +14,8 @@ body {
     width: calc(100% - var(--sp_sidebar_w));
     overflow-y: auto;
     background-color: var(--sp_content_bg);
-    padding: 1rem;
+    padding: 1.5rem;
+    padding-right: 2.5rem;
 }
 
 .content .navbar {
