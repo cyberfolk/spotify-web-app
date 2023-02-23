@@ -1,4 +1,23 @@
 /* #region Utilities */
+.txt_06r {
+    font-size: 0.65rem;
+}
+
+.txt_08r {
+    font-size: 0.8rem;
+}
+
+.txt_white {
+    color: var(--sp_white);
+}
+
+.txt_gray {
+    color: var(--sp_txt);
+}
+
+.icon_gray {
+    color: var(--sp_icon_2);
+}
 
 .p_sticky {
     position: sticky;

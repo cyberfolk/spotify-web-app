@@ -1,4 +1,8 @@
 /* #region app-web */
+body {
+    overflow: hidden;
+}
+
 /* #region top */
 .top {
     height: calc(100vh - var(--sp_bottom_h));
@@ -43,35 +47,107 @@
 .bottom {
     height: var(--sp_bottom_h);
     background-color: var(--sp_bottom_bg);
+    color: var(--sp_white);
+}
+
+.bottom .row,
+.bottom [class^="col_"],
+.bottom .menu {
+    height: 100%;
 }
 
 .bottom .row {
     justify-content: space-between;
 }
 
-.bottom .menu,
-.bottom .tracker {
+.menu {
     display: flex;
+    align-items: center;
 }
 
-.bottom .menu.center {
+.menu.left {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 0.8rem;
+    justify-content: start;
+}
+
+
+
+
+.menu.left .track_cover {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu.left .track_info {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.menu.left img {
+    max-height: 100%;
+}
+
+.menu.center {
+    justify-content: center;
+}
+
+.bottom .console {
     display: flex;
     flex-direction: column;
+    flex-basis: 100%;
 }
 
-.console > .list_inline {
-    justify-content: space-between;
+.menu.center > .console > .list_inline {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+
+.menu.center > .console > .list_inline .fa-circle-play {
+    margin: 0 1.8rem;
+}
+
+.menu.center > .console > .list_inline .fa-backward-step {
+    margin-left: 1.2rem;
+}
+
+.menu.center > .console > .list_inline .fa-forward-step {
+    margin-right: 1.2rem;
+}
+
+.tracker {
+    display: flex;
+    align-items: center;
+}
+
+.tracker .time_now {
+    margin-right: 0.6rem;
+}
+
+.tracker .time_end {
+    margin-left: 0.6rem;
 }
 
 .bottom .bar {
     background-color: var(--sp_bar_down);
     height: 0.3rem;
-    flex-basis: 100%;
+    border-radius: 0.5rem;
+    flex-grow: 1;
 }
 
-.menu.right,
-.tracker {
-    align-items: center;
+.menu.right {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    justify-content: right;
+}
+
+.menu.right i {
+    margin-right: 0.6rem;
 }
 
 /* #endregion bottom */
