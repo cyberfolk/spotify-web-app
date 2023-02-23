@@ -96,6 +96,11 @@
         flex-basis: 50%;
     }
 
+    .bottom .menu.left_ .track_operation > ul {
+        display: flex;
+        gap: 0.5rem
+    }
+
     /* #endregion bottom */
 }
 
