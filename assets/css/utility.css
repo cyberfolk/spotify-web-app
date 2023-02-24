@@ -7,24 +7,28 @@
     font-size: 0.8rem;
 }
 
-.txt_white {
+.c_white {
     color: var(--sp_white);
 }
 
-.txt_gray {
-    color: var(--sp_txt);
+.c_gray_1 {
+    color: var(--sp_gray_1);
 }
 
-.bg_gray {
-    background-color: var(--sp_txt);
+.c_gray_2 {
+    color: var(--sp_gray_2);
 }
 
-.icon_gray {
-    color: var(--sp_icon_2);
+.c_gray_3 {
+    color: var(--sp_gray_3);
+}
+
+.bg_gray_3 {
+    background-color: var(--sp_gray_3);
 }
 
 .spacer {
-    border-top: 1px solid var(--sp_icon_2);
+    border-top: 1px solid var(--sp_gray_2);
     border-bottom: none;
     margin: 0;
 }
@@ -264,19 +268,19 @@
     color: blue;
 }
 
-.bg_c_green {
+.bg_green {
     background-color: green;
 }
 
-.bg_c_red {
+.bg_red {
     background-color: red;
 }
 
-.bg_c_yellow {
+.bg_yellow {
     background-color: yellow;
 }
 
-.bg_c_blu {
+.bg_blu {
     background-color: blue;
 }
 
