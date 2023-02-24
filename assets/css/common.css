@@ -36,10 +36,6 @@ i:hover {
     color: var(--sp_white);
 }
 
-.action:hover i {
-    color: var(--sp_white);
-}
-
 .action:hover path {
     fill: var(--sp_white);
 }
