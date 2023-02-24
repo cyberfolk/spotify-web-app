@@ -9,12 +9,6 @@
     /* margin: 0 -1rem; */
 }
 
-.container {
-    width: 80%;
-    max-width: 1152px;
-    margin: auto;
-}
-
 /* #region col_xs_X */
 .col_xs_p100 {
     width: 100%;

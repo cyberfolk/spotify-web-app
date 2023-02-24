@@ -1,5 +1,15 @@
 /* #endregion media query */
+
+.container {
+    width: 90%;
+    max-width: 420px;
+    margin: auto;
+}
+
 @media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
 
     /* #region top */
     /* #region content */
@@ -31,8 +41,10 @@
     /* #endregion bottom */
 }
 
-
 @media screen and (min-width: 768px) {
+    .container {
+        max-width: 620px;
+    }
 
     /* #region top */
     /* #region content */
@@ -95,6 +107,9 @@
 }
 
 @media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
 
     /* #region top */
     /* #region content */
@@ -117,6 +132,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1152px;
+    }
 
     /* #region top */
     /* #region content */
