@@ -154,7 +154,7 @@
 /* #endregion col_xs_X */
 
 /* #region col_s_X */
-@media screen and (min-width: 553px) {
+@media screen and (min-width: 576px) {
     .col_s_p100 {
         width: 100%;
         /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
@@ -291,7 +291,7 @@
 /* #endregion col_s_X */
 
 /* #region col_md_X */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 992px) {
     .col_md_p100 {
         width: 100%;
         /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
@@ -428,7 +428,7 @@
 /* #endregion col_md_X */
 
 /* #region col_lg_X */
-@media screen and (min-width: 879px) {
+@media screen and (min-width: 1200px) {
     .col_lg_p100 {
         width: 100%;
         /* Se scommento la riga seguente devo scommentare anche la relativa parte in row */
