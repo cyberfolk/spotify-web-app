@@ -15,10 +15,6 @@
         display: inline-block;
     }
 
-    .sidebar .action svg {
-        width: 1.5rem;
-    }
-
     /* #region sidebar_top */
     .sidebar_top .spotify-logo--text {
         display: block;

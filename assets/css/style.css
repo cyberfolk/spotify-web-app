@@ -133,6 +133,10 @@ h2 {
     position: relative;
 }
 
+.sidebar .action svg {
+    width: 1.5rem;
+}
+
 .action:hover::after {
     content: '';
     height: 100%;
@@ -189,6 +193,11 @@ h2 {
 
 .sidebar_bottom .download {
     padding: 0.5rem;
+}
+
+.sidebar_bottom .action.download > svg {
+    /* Override di una regola generale */
+    width: 1rem;
 }
 
 .sidebar_bottom .spacer {
