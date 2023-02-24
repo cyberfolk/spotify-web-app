@@ -127,5 +127,28 @@
     /* #endregion bottom */
 }
 
+@media screen and (max-height: 360px) {
+
+    /* #region top */
+    /* #region content */
+    .call_to_action {
+        display: none;
+    }
+
+    /* #endregion content */
+
+    /* #region sidebar */
+    /* #region sidebar_top */
+    /* #endregion sidebar_top */
+
+    /* #region sidebar_bottom */
+    /* #endregion sidebar_bottom */
+    /* #endregion sidebar */
+    /* #endregion top */
+
+    /* #region bottom */
+    /* #endregion bottom */
+}
+
 /* #endregion Media-Query-1280px*/
 /* #endregion media query */
