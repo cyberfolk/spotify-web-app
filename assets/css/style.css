@@ -284,6 +284,10 @@ h2 {
     padding-bottom: 0.7rem;
 }
 
+.bottom .menu.center_ .fa-circle-play:hover {
+    transform: scale(1.15);
+}
+
 .bottom .menu.center_ .fa-circle-play {
     margin: 0 1.8rem;
 }
