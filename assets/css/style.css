@@ -4,11 +4,6 @@ body {
 }
 
 /* #region ************************ Utility tmp */
-.action {
-    padding: 0.15rem;
-    display: block;
-}
-
 .artist_name {
     color: var(--sp_gray_3);
 }
@@ -119,10 +114,11 @@ h2 {
     padding: 0 0.7rem;
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
+    justify-content: space-between;
 }
 
 .sidebar .action_icon {
-    display: inline;
+    display: inline-block;
 }
 
 .sidebar .action_name {
@@ -130,6 +126,23 @@ h2 {
     display: none;
     vertical-align: 50%;
 }
+
+.action {
+    padding: 0.15rem;
+    display: block;
+    position: relative;
+}
+
+.action:hover::after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    left: -0.5rem;
+    bottom: 0;
+    border-right: 3px solid var(--sp_secondary);
+}
+
 
 /* #region sidebar_top */
 .sidebar_top {
@@ -150,17 +163,13 @@ h2 {
 .playlist {
     height: calc(100% - var(--sp_sidebar_bottom_h) - var(--sp_sidebar_top_h));
     overflow-y: auto;
+    /* E' a causa di questo overflow che non si evidenzia in verde la .action.add */
     display: none;
 }
 
 .playlist h2 {
     font-size: 0.9rem;
     margin-bottom: 0.3rem;
-}
-
-.action i {
-    font-size: 2rem;
-    padding-right: 0.2rem;
 }
 
 .playlist .list_no_point {
