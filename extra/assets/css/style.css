@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-/* #region ************************ Utility tmp */
+/* #region ****************** Utility */
 .artist_name {
     color: var(--sp_gray_3);
 }
@@ -12,17 +12,11 @@ body {
     text-decoration: underline;
 }
 
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--sp_white);
-}
-
 .track_name {
     color: var(--sp_white)
 }
 
-/* #endregion ********************* Utility tmp */
+/* #endregion *************** Utility */
 
 /* #region top */
 .top {
@@ -35,14 +29,15 @@ h2 {
     width: calc(100% - var(--sp_sidebar_w));
     overflow-y: auto;
     background-color: var(--sp_content_bg);
-    padding: 1.5rem;
-    padding-right: 2.5rem;
+}
+
+.content .call_to_action {
+    padding: 1rem 1rem 0 0;
 }
 
 .content .navbar {
-    padding: 0.5rem;
+    padding-top: 1rem;
 }
-
 
 .content .navbar .list_inline {
     gap: 2rem;
