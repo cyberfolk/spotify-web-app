@@ -59,6 +59,17 @@ h2 {
 .content .navbar a {
     font-size: 0.8rem;
     font-weight: bold;
+    position: relative;
+}
+
+.content .navbar a:hover::after {
+    content: '';
+    width: 2rem;
+    position: absolute;
+    left: 50%;
+    bottom: -0.5rem;
+    transform: translate(-50%, -50%);
+    border-bottom: 3px solid var(--sp_secondary);
 }
 
 .content .track .cover:hover img {
