@@ -2,6 +2,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    /* ?? Dubbio */
+    height: 100%;
     /** Se le col_x hanno un padding-1 scommentare: "margin: 0 -1rem;" */
     /** In modo da incolonnare perfettamente tutti gli elementi sotto il container */
     /* margin: 0 -1rem; */

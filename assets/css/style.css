@@ -152,6 +152,11 @@ h2 {
     padding-right: 0.2rem;
 }
 
+.playlist .list_no_point {
+    /* ?? Dubbio */
+    height: 100%;
+}
+
 .playlist .list_no_point li {
     margin-top: 1rem;
 }
