@@ -313,22 +313,35 @@ h2 {
 }
 
 .bottom .bar {
-    background-color: var(--sp_bar_down);
-    height: 0.3rem;
+    cursor: pointer;
     border-radius: 0.5rem;
-    flex-grow: 1;
+    height: 0.3rem;
     position: relative;
 }
 
-.bottom .bar::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.bottom .bar.down {
+    background-color: var(--sp_bar_down);
+    flex-grow: 1;
+}
+
+.bottom .bar.up {
     background-color: var(--sp_bar_hover);
     width: 30%;
-    height: 0.3rem;
-    border-radius: 0.5rem;
+}
+
+.bottom .bar.up::after {
+    content: '';
+    position: absolute;
+    left: calc(100% - 0.6rem);
+    bottom: -2.5px;
+    background-color: var(--sp_white);
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+}
+
+.bottom .bar.down:hover .bar.up {
+    background-color: var(--sp_secondary);
 }
 
 .bottom .menu.right_ {
