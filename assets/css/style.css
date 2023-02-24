@@ -1,7 +1,33 @@
-/* #region app-web */
+/* #region style */
 body {
     overflow: hidden;
 }
+
+/* #region ************************ Utility tmp */
+.action {
+    padding: 0.15rem;
+    display: block;
+}
+
+.artist_name {
+    color: var(--sp_gray_3);
+}
+
+.artist_name:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--sp_white);
+}
+
+.track_name {
+    color: var(--sp_white)
+}
+
+/* #endregion ********************* Utility tmp */
 
 /* #region top */
 .top {
@@ -31,14 +57,7 @@ body {
 }
 
 .content .navbar a {
-    color: var(--sp_txt);
     font-size: 0.8rem;
-    font-weight: bold;
-}
-
-.content h2 {
-    color: var(--sp_white);
-    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -70,18 +89,12 @@ body {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     font-size: 1.2rem;
-    color: var(--sp_white);
 }
 
 .content .artist_name {
     padding-bottom: 0.5rem;
     font-size: 0.9rem;
 }
-
-
-
-
-
 
 /* #endregion content */
 
@@ -92,17 +105,16 @@ body {
     width: var(--sp_sidebar_w);
     overflow: hidden;
     background-color: var(--sp_black);
-    color: var(--sp_txt);
     padding: 0 0.7rem;
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
 }
 
-.top .action_icon {
+.sidebar .action_icon {
     display: inline;
 }
 
-.top .action_name {
+.sidebar .action_name {
     padding-left: 0.1rem;
     display: none;
     vertical-align: 50%;
@@ -122,10 +134,8 @@ body {
     padding-bottom: 1rem;
 }
 
-.sidebar_top .action {
-    padding: 0.15rem;
-}
-
+/* #endregion sidebar_top */
+/* #region playlist */
 .playlist {
     height: calc(100% - var(--sp_sidebar_bottom_h) - var(--sp_sidebar_top_h));
     overflow-y: auto;
@@ -146,7 +156,7 @@ body {
     margin-top: 1rem;
 }
 
-/* #endregion sidebar_top */
+/* #endregion playlist */
 /* #region sidebar_bottom */
 .top .sidebar_bottom {
     height: var(--sp_sidebar_bottom_h);
@@ -182,7 +192,6 @@ body {
 .bottom {
     height: var(--sp_bottom_h);
     background-color: var(--sp_bottom_bg);
-    color: var(--sp_white);
 }
 
 .bottom .row,
@@ -260,10 +269,12 @@ body {
 }
 
 .bottom .tracker .time_now {
+    color: var(--sp_white);
     margin-right: 0.6rem;
 }
 
 .bottom .tracker .time_end {
+    color: var(--sp_white);
     margin-left: 0.6rem;
 }
 
@@ -285,4 +296,4 @@ body {
 }
 
 /* #endregion bottom */
-/* #endregion app-web */
+/* #endregion style */
