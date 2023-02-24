@@ -1,0 +1,693 @@
+/* #region Utilities */
+.txt_06r {
+    font-size: 0.65rem;
+}
+
+.txt_08r {
+    font-size: 0.8rem;
+}
+
+.c_white {
+    color: var(--sp_white);
+}
+
+.c_gray_1 {
+    color: var(--sp_gray_1);
+}
+
+.c_gray_2 {
+    color: var(--sp_gray_2);
+}
+
+.c_gray_3 {
+    color: var(--sp_gray_3);
+}
+
+.bg_gray_3 {
+    background-color: var(--sp_gray_3);
+}
+
+.spacer {
+    border-top: 1px solid var(--sp_gray_2);
+    border-bottom: none;
+    margin: 0;
+}
+
+.p_sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    /** Ricordarsi di mettere il margin-bottom nel main */
+}
+
+.circletag {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.list_inline {
+    list-style: none;
+    display: flex;
+    /** Valutare caso per caso di quanto fare il gap */
+    /* gap: 0.5rem; */
+}
+
+.list_no_point {
+    list-style: none;
+}
+
+.txt_a_c {
+    text-align: center;
+}
+
+/* #region Click - ON/OFF */
+.section_tmp input[type=checkbox] {
+    /* Uso appearance per nascondere il normale checkbox */
+    appearance: none;
+    font-family: FontAwesome;
+    font-size: 4rem;
+}
+
+.section_tmp input[type=checkbox]:before {
+    /* Off state */
+    content: "\f204";
+}
+
+.section_tmp input[type=checkbox]:checked:before {
+    /* On state */
+    content: "\f205";
+}
+
+.section_tmp input[type=checkbox]:checked + .target_tmp {
+    /* Fare Ovveride in style.css */
+    /* Caso per caso scrivere cosa deve succedere*/
+    display: block;
+}
+
+/* #endregion Click - ON/OFF */
+
+/* #region ul_change-dot */
+.target_tmp ul {
+    /* Override locale di un common tag */
+    padding-left: var(--icon_size);
+}
+
+.target_tmp li {
+    /* Override locale di un common tag */
+    padding-left: var(--gutter);
+}
+
+.target_tmp > li::marker {
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
+/* #endregion ul_change-dot */
+
+/* #region Flex */
+
+.d_flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap_1 {
+    gap: 1rem;
+}
+
+.gap_05 {
+    gap: 0.5rem;
+}
+
+.jc_sb {
+    justify-content: space-between;
+}
+
+.jc_fe {
+    justify-content: flex-end;
+}
+
+/* #endregion Flex */
+
+/* #region Button */
+
+.btn_small {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.9rem;
+}
+
+.btn_lg {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.btn_w-max {
+    display: block;
+    text-align: center;
+}
+
+.btn_dark {
+    background-color: var(--sp_dark);
+    color: var(--sp_lighter)
+}
+
+.btn_secondary {
+    background-color: var(--sp_secondary);
+    color: var(--sp_white);
+}
+
+.btn_light {
+    background-color: var(--sp_white);
+    color: var(--sp_primary);
+}
+
+.btn_primary {
+    background-color: var(--sp_primary);
+    color: var(--sp_white);
+}
+
+.btn_white {
+    background-color: var(--sp_white);
+    color: var(--sp_black);
+}
+
+.btn {
+    padding: 0.5rem 2.5rem;
+    border: 1px solid var(--sp_white);
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: filter 0.5s;
+    /* Per evitare che il bottoni assuma una width 100% */
+    display: inline-block;
+    color: var(--sp_white);
+    background-color: var(--sp_content_bg);
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/* #endregion Button */
+
+/* #region Round_Check_Cross */
+
+.round::before {
+    /** Generalmente da dare alle icone di font_awesome, vi crea un cerchio attorno */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.65rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.check::before {
+    /** Va in coppia con round se voglio riempirlo automaticamente con una spunta verde di check */
+    content: "\2713";
+    border: 1px solid green;
+    color: green;
+}
+
+.cross::before {
+    /** Va in coppia con round se voglio riempirlo automaticamente con una spunta verde di cross */
+    content: "\2717";
+    border: 1px solid red;
+    color: red;
+}
+
+/* #endregion Round_Check_Cross */
+
+/* #region Wave */
+.wave_container {
+    background: black;
+    color: white;
+}
+
+.wave_container > svg {
+    display: block;
+}
+
+/* #endregion Wave */
+
+/* #region Color Color_bg */
+
+.c_green {
+    color: green;
+}
+
+.c_red {
+    color: red;
+}
+
+.c_yellow {
+    color: yellow;
+}
+
+.c_blu {
+    color: blue;
+}
+
+.bg_green {
+    background-color: green;
+}
+
+.bg_red {
+    background-color: red;
+}
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+.bg_blu {
+    background-color: blue;
+}
+
+/* #endregion Color Color-bg */
+
+/* #region Padding Margin */
+/* #region Padding */
+.p_5 {
+    padding: 5rem;
+}
+
+.p_4 {
+    padding: 4rem;
+}
+
+.p_3 {
+    padding: 3rem;
+}
+
+.p_2 {
+    padding: 2rem;
+}
+
+.p_1 {
+    padding: 1rem;
+}
+
+.px_5 {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.px_4 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.px_3 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.px_2 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.px_1_5 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.px_1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.px_05 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.px_025 {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+.py_8 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.py_5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.py_4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py_3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.py_2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py_1_5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.py_1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pt_8 {
+    padding-top: 8rem;
+}
+
+.pt_5 {
+    padding-top: 5rem;
+}
+
+.pt_4 {
+    padding-top: 4rem;
+}
+
+.pt_3 {
+    padding-top: 3rem;
+}
+
+.pt_2 {
+    padding-top: 2rem;
+}
+
+.pt_1 {
+    padding-top: 1rem;
+}
+
+.pt_05 {
+    padding-top: 0.5rem;
+}
+
+.pb_5 {
+    padding-bottom: 5rem;
+}
+
+.pb_4 {
+    padding-bottom: 4rem;
+}
+
+.pb_3 {
+    padding-bottom: 3rem;
+}
+
+.pb_2 {
+    padding-bottom: 2rem;
+}
+
+.pb_1_5 {
+    padding-bottom: 1.5rem;
+}
+
+.pb_1 {
+    padding-bottom: 1rem;
+}
+
+.pb_05 {
+    padding-bottom: 0.5rem;
+}
+
+.pl_6 {
+    padding-left: 6rem;
+}
+
+.pl_5 {
+    padding-left: 5rem;
+}
+
+.pl_4 {
+    padding-left: 4rem;
+}
+
+.pl_3 {
+    padding-left: 3rem;
+}
+
+.pl_2 {
+    padding-left: 2rem;
+}
+
+.pl_1 {
+    padding-left: 1rem;
+}
+
+.pl_6 {
+    padding-right: 6rem;
+}
+
+.pl_5 {
+    padding-right: 5rem;
+}
+
+.pl_4 {
+    padding-right: 4rem;
+}
+
+.pl_3 {
+    padding-right: 3rem;
+}
+
+.pl_2 {
+    padding-right: 2rem;
+}
+
+.pl_1 {
+    padding-right: 1rem;
+}
+
+/* #endregion Padding */
+
+/* #region Margin */
+.m_5 {
+    margin: 5rem;
+}
+
+.m_4 {
+    margin: 4rem;
+}
+
+.m_3 {
+    margin: 3rem;
+}
+
+.m_2 {
+    margin: 2rem;
+}
+
+.m_1 {
+    margin: 1rem;
+}
+
+.mx_5 {
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.mx_4 {
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+.mx_3 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.mx_2 {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.mx_1 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.mx_05 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.mx_-05 {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.mx_-025 {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+}
+
+.mx_-1 {
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+.mx_-2 {
+    margin-right: -2rem;
+    margin-left: -2rem;
+}
+
+.my_5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.my_4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.my_3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.my_2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.my_1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mt_5 {
+    margin-top: 5rem;
+}
+
+.mt_4 {
+    margin-top: 4rem;
+}
+
+.mt_3 {
+    margin-top: 3rem;
+}
+
+.mt_2 {
+    margin-top: 2rem;
+}
+
+.mt_1 {
+    margin-top: 1rem;
+}
+
+.mt_05 {
+    margin-top: 0.5rem;
+}
+
+.mb_5 {
+    margin-bottom: 5rem;
+}
+
+.mb_4 {
+    margin-bottom: 4rem;
+}
+
+.mb_3 {
+    margin-bottom: 3rem;
+}
+
+.m_2 {
+    margin-bottom: 2rem;
+}
+
+.mb_1 {
+    margin-bottom: 1rem;
+}
+
+.mb_1_3 {
+    margin-bottom: 1.3rem;
+}
+
+.mb_05 {
+    margin-bottom: 0.5rem;
+}
+
+.ml_6 {
+    margin-left: 6rem;
+}
+
+.ml_5 {
+    margin-left: 5rem;
+}
+
+.ml_4 {
+    margin-left: 4rem;
+}
+
+.ml_3 {
+    margin-left: 3rem;
+}
+
+.ml_2 {
+    margin-left: 2rem;
+}
+
+.ml_1 {
+    margin-left: 1rem;
+}
+
+.ml_6 {
+    margin-right: 6rem;
+}
+
+.ml_5 {
+    margin-right: 5rem;
+}
+
+.ml_4 {
+    margin-right: 4rem;
+}
+
+.ml_3 {
+    margin-right: 3rem;
+}
+
+.ml_2 {
+    margin-right: 2rem;
+}
+
+.ml_1 {
+    margin-right: 1rem;
+}
+
+/* #endregion Margin */
+
+/* #endregion Padding Margin */
+
+/* #endregion Utilities */
