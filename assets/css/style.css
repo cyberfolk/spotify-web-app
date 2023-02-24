@@ -226,6 +226,8 @@ h2 {
 .bottom {
     height: var(--sp_bottom_h);
     background-color: var(--sp_bottom_bg);
+    position: relative;
+    z-index: 2;
 }
 
 .bottom .row,
