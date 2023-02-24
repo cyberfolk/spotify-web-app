@@ -9,14 +9,11 @@
     /* margin: 0 -1rem; */
 }
 
-/* #region Container */
 .container {
     width: 80%;
     max-width: 1152px;
     margin: auto;
 }
-
-/* #endregion Container */
 
 /* #region col_xs_X */
 .col_xs_p100 {
@@ -153,7 +150,6 @@
 
 /* #endregion col_xs_X */
 
-/* #region col_s_X */
 @media screen and (min-width: 576px) {
     .col_s_p100 {
         width: 100%;
@@ -288,9 +284,6 @@
     }
 }
 
-/* #endregion col_s_X */
-
-/* #region col_md_X */
 @media screen and (min-width: 992px) {
     .col_md_p100 {
         width: 100%;
@@ -425,9 +418,6 @@
     }
 }
 
-/* #endregion col_md_X */
-
-/* #region col_lg_X */
 @media screen and (min-width: 1200px) {
     .col_lg_p100 {
         width: 100%;
@@ -561,7 +551,5 @@
         /* padding: 1rem; */
     }
 }
-
-/* #endregion col_lg_X */
 
 /* #endregion Grid */

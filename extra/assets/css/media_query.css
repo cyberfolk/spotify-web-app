@@ -1,10 +1,9 @@
 /* #endregion media query */
-/* #region Media-Query-560px */
 @media screen and (min-width: 553px) {
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
     .top > .sidebar {
         width: 230px;
@@ -25,11 +24,13 @@
         display: none;
     }
 
+    /* #endregion sidebar_top */
+    /* #region playlist */
     .playlist {
         display: block;
     }
 
-    /* #endregion sidebar_top */
+    /* #endregion playlist */
     /* #region sidebar_bottom */
     .sidebar_bottom .download {
         padding: 0;
@@ -47,7 +48,6 @@
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     .bottom .menu.right_ {
         padding-left: 1.3rem;
@@ -70,21 +70,20 @@
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-560px*/
-/* #region Media-Query-769px */
 @media screen and (min-width: 640px) {
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
     /* #region sidebar_top */
     /* #endregion sidebar_top */
+    /* #region playlist */
+    /* #endregion playlist */
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     .bottom .menu.left_ .track_info {
         padding-right: 2rem;
@@ -102,22 +101,20 @@
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-769px*/
-/* #region Media-Query-1280px */
 @media screen and (min-width: 879px) {
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-
+    /* #region playlist */
+    /* #endregion playlist */
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     .bottom .menu.center_ .bar {
         flex-grow: 0;
@@ -140,15 +137,12 @@
     /* #region sidebar */
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-1280px*/
 /* #endregion media query */
