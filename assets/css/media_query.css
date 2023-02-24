@@ -15,9 +15,11 @@
         display: inline-block;
     }
 
-    /* #region sidebar_top */
-    /* #endregion sidebar_top */
+    .sidebar .action svg {
+        width: 1.5rem;
+    }
 
+    /* #region sidebar_top */
     .sidebar_top .spotify-logo--text {
         display: block;
         padding-right: 3rem;
@@ -27,37 +29,24 @@
         display: none;
     }
 
-    .sidebar_top .action svg {
-        height: 1.5rem;
-    }
-
     .playlist {
         display: block;
     }
 
+    /* #endregion sidebar_top */
     /* #region sidebar_bottom */
     .sidebar_bottom .download {
         padding: 0;
-        padding-top: 1rem;
+        margin-top: 1rem;
     }
 
     .sidebar_bottom .download svg {
-        height: 1rem;
+        width: 1rem;
     }
 
     .sidebar_bottom .spacer {
         display: block;
     }
-
-    .sidebar_bottom .user {
-        width: 1.5rem;
-    }
-
-    .sidebar_bottom .user svg {
-        width: 1.5rem;
-    }
-
-
 
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
