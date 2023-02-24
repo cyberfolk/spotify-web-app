@@ -1,16 +1,49 @@
 /* #endregion media query */
-@media screen and (min-width: 553px) {
+@media screen and (min-width: 576px) {
 
     /* #region top */
     /* #region content */
     /* #endregion content */
     /* #region sidebar */
-    .top > .sidebar {
+    /* #region sidebar_top */
+    /* #endregion sidebar_top */
+    /* #region playlist */
+    /* #endregion playlist */
+    /* #region sidebar_bottom */
+    /* #endregion sidebar_bottom */
+    /* #endregion sidebar */
+    /* #endregion top */
+    /* #region bottom */
+    .bottom .menu.left_ .track_operation {
+        display: block;
+    }
+
+    .bottom .menu.right_ .fa-bars,
+    .bottom .menu.right_ .fa-desktop {
+        visibility: visible;
+    }
+
+    .bottom .menu.right_ > .bar {
+        flex-grow: 0;
+        flex-basis: 40%;
+    }
+
+    /* #endregion bottom */
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /* #region top */
+    /* #region content */
+    /* #endregion content */
+    /* #region sidebar */
+    .sidebar {
         width: 230px;
         padding: 1rem;
     }
 
-    .top .action_name {
+    .sidebar .action_name {
         display: inline-block;
     }
 
@@ -49,28 +82,19 @@
     /* #endregion sidebar */
     /* #endregion top */
     /* #region bottom */
-    .bottom .menu.right_ {
-        padding-left: 1.3rem;
+    .bottom .menu.left_ .track_info {
+        padding-right: 2rem;
     }
 
-    .bottom .menu.left_ .track_operation {
-        display: block;
-    }
-
-    .bottom .menu.right_ .fa-bars,
-    .bottom .menu.right_ .fa-desktop {
-        visibility: visible;
-    }
-
-    .bottom .menu.right_ > .bar {
-        flex-grow: 0;
-        flex-basis: 40%;
+    .bottom .menu.left_ .track_operation > ul {
+        display: flex;
+        gap: 0.8rem
     }
 
     /* #endregion bottom */
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 992px) {
 
     /* #region top */
     /* #region content */
@@ -85,23 +109,14 @@
     /* #endregion sidebar */
     /* #endregion top */
     /* #region bottom */
-    .bottom .menu.left_ .track_info {
-        padding-right: 2rem;
-    }
-
     .bottom .menu.right_ i {
         margin-right: 0.8rem;
-    }
-
-    .bottom .menu.left_ .track_operation > ul {
-        display: flex;
-        gap: 0.8rem
     }
 
     /* #endregion bottom */
 }
 
-@media screen and (min-width: 879px) {
+@media screen and (min-width: 1200px) {
 
     /* #region top */
     /* #region content */

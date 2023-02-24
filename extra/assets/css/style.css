@@ -31,7 +31,7 @@ h2 {
 }
 
 /* #region content */
-.top > .content {
+.content {
     width: calc(100% - var(--sp_sidebar_w));
     overflow-y: auto;
     background-color: var(--sp_content_bg);
@@ -105,7 +105,7 @@ h2 {
 /* #endregion content */
 
 /* #region sidebar */
-.top > .sidebar {
+.sidebar {
     display: flex;
     flex-direction: column;
     width: var(--sp_sidebar_w);
@@ -137,7 +137,7 @@ h2 {
     width: 1.5rem;
 }
 
-.action:hover::after {
+.sidebar .action:hover::after {
     content: '';
     height: 100%;
     position: absolute;
@@ -187,7 +187,7 @@ h2 {
 
 /* #endregion playlist */
 /* #region sidebar_bottom */
-.top .sidebar_bottom {
+.sidebar_bottom {
     height: var(--sp_sidebar_bottom_h);
 }
 
@@ -219,9 +219,6 @@ h2 {
 /* #endregion sidebar_bottom */
 /* #endregion sidebar */
 /* #endregion top */
-
-
-
 /* #region bottom */
 .bottom {
     height: var(--sp_bottom_h);
