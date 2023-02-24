@@ -19,24 +19,35 @@ li {
 }
 
 a {
-    /* Possibili Ovveride in style.css*/
-    color: white;
+    color: var(--sp_gray_3);
     text-decoration: none;
 }
 
-/* a:hover {
-    /* Possibili Ovveride in style.css
-    font-weight: bold;
-    font-size: 1.1rem;
-} */
+a:hover {
+    /* Possibili Ovveride in style.css*/
+    color: var(--sp_white);
+}
 
 i {
     color: var(--sp_white);
 }
 
+i:hover {
+    color: var(--sp_white);
+}
+
+.action:hover i {
+    color: var(--sp_white);
+}
+
+.action:hover path {
+    fill: var(--sp_white);
+}
+
 button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 :root {
@@ -60,9 +71,9 @@ button {
     --sp_secondary: #adff2f;
     --sp_bar_hover: #c1c1c1;
     --sp_bar_down: #5a5a5a;
-    --sp_icon_1: #d2d2d2;
-    --sp_icon_2: #a3a3a3;
-    --sp_txt: #717171;
+    --sp_gray_1: #d2d2d2;
+    --sp_gray_2: #a3a3a3;
+    --sp_gray_3: #717171;
 }
 
 /* #endregion Common */
