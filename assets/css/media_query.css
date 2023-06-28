@@ -1,58 +1,29 @@
 /* #endregion media query */
-/* #region Media-Query-560px */
-@media screen and (min-width: 553px) {
+
+.container {
+    width: 90%;
+    max-width: 420px;
+    margin: auto;
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
-    .top > .sidebar {
-        width: 230px;
-        padding: 1rem;
-    }
-
-    .top .action_name {
-        display: inline-block;
-    }
-
     /* #region sidebar_top */
-    .sidebar_top .spotify-logo--text {
-        display: block;
-        padding-right: 3rem;
-    }
-
-    .sidebar_top .spotify-logo {
-        display: none;
-    }
-
-    .playlist {
-        display: block;
-    }
-
     /* #endregion sidebar_top */
+    /* #region playlist */
+    /* #endregion playlist */
     /* #region sidebar_bottom */
-    .sidebar_bottom .download {
-        padding: 0;
-        margin-top: 1rem;
-    }
-
-    .sidebar_bottom .download svg {
-        width: 1rem;
-    }
-
-    .sidebar_bottom .spacer {
-        display: block;
-    }
-
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
-    .bottom .menu.right_ {
-        padding-left: 1.3rem;
-    }
-
     .bottom .menu.left_ .track_operation {
         display: block;
     }
@@ -70,28 +41,61 @@
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-560px*/
-/* #region Media-Query-769px */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 620px;
+    }
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
+    .sidebar {
+        width: 230px;
+        padding: 1rem;
+    }
+
+    .sidebar .action_name {
+        display: inline-block;
+    }
+
     /* #region sidebar_top */
+    .sidebar_top .spotify-logo--text {
+        display: block;
+        padding-right: 3rem;
+    }
+
+    .sidebar_top .spotify-logo {
+        display: none;
+    }
+
     /* #endregion sidebar_top */
+    /* #region playlist */
+    .playlist {
+        display: block;
+    }
+
+    /* #endregion playlist */
     /* #region sidebar_bottom */
+    .sidebar_bottom .download {
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .sidebar_bottom .download svg {
+        width: 1rem;
+    }
+
+    .sidebar_bottom .spacer {
+        display: block;
+    }
+
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     .bottom .menu.left_ .track_info {
         padding-right: 2rem;
-    }
-
-    .bottom .menu.right_ i {
-        margin-right: 0.8rem;
     }
 
     .bottom .menu.left_ .track_operation > ul {
@@ -102,22 +106,48 @@
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-769px*/
-/* #region Media-Query-1280px */
-@media screen and (min-width: 879px) {
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
     /* #region top */
     /* #region content */
     /* #endregion content */
-
     /* #region sidebar */
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-
+    /* #region playlist */
+    /* #endregion playlist */
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
+    /* #region bottom */
+    .bottom .menu.right_ i {
+        margin-right: 0.8rem;
+    }
 
+    /* #endregion bottom */
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1152px;
+    }
+
+    /* #region top */
+    /* #region content */
+    /* #endregion content */
+    /* #region sidebar */
+    /* #region sidebar_top */
+    /* #endregion sidebar_top */
+    /* #region playlist */
+    /* #endregion playlist */
+    /* #region sidebar_bottom */
+    /* #endregion sidebar_bottom */
+    /* #endregion sidebar */
+    /* #endregion top */
     /* #region bottom */
     .bottom .menu.center_ .bar {
         flex-grow: 0;
@@ -140,15 +170,12 @@
     /* #region sidebar */
     /* #region sidebar_top */
     /* #endregion sidebar_top */
-
     /* #region sidebar_bottom */
     /* #endregion sidebar_bottom */
     /* #endregion sidebar */
     /* #endregion top */
-
     /* #region bottom */
     /* #endregion bottom */
 }
 
-/* #endregion Media-Query-1280px*/
 /* #endregion media query */

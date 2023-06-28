@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-/* #region ************************ Utility tmp */
+/* #region ****************** Utility */
 .artist_name {
     color: var(--sp_gray_3);
 }
@@ -12,17 +12,11 @@ body {
     text-decoration: underline;
 }
 
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--sp_white);
-}
-
 .track_name {
     color: var(--sp_white)
 }
 
-/* #endregion ********************* Utility tmp */
+/* #endregion *************** Utility */
 
 /* #region top */
 .top {
@@ -31,18 +25,19 @@ h2 {
 }
 
 /* #region content */
-.top > .content {
+.content {
     width: calc(100% - var(--sp_sidebar_w));
     overflow-y: auto;
     background-color: var(--sp_content_bg);
-    padding: 1.5rem;
-    padding-right: 2.5rem;
+}
+
+.content .call_to_action {
+    padding: 1rem 1rem 0 0;
 }
 
 .content .navbar {
-    padding: 0.5rem;
+    padding-top: 1rem;
 }
-
 
 .content .navbar .list_inline {
     gap: 2rem;
@@ -105,7 +100,7 @@ h2 {
 /* #endregion content */
 
 /* #region sidebar */
-.top > .sidebar {
+.sidebar {
     display: flex;
     flex-direction: column;
     width: var(--sp_sidebar_w);
@@ -137,7 +132,7 @@ h2 {
     width: 1.5rem;
 }
 
-.action:hover::after {
+.sidebar .action:hover::after {
     content: '';
     height: 100%;
     position: absolute;
@@ -187,7 +182,7 @@ h2 {
 
 /* #endregion playlist */
 /* #region sidebar_bottom */
-.top .sidebar_bottom {
+.sidebar_bottom {
     height: var(--sp_sidebar_bottom_h);
 }
 
@@ -219,9 +214,6 @@ h2 {
 /* #endregion sidebar_bottom */
 /* #endregion sidebar */
 /* #endregion top */
-
-
-
 /* #region bottom */
 .bottom {
     height: var(--sp_bottom_h);
