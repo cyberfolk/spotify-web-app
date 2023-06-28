@@ -1,4 +1,4 @@
-# Spotify - Web App
+# Spotify - Replica web-app
 
 **Initial commit**: 22/02/23
 
