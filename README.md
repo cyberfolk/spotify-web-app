@@ -8,5 +8,5 @@
 
 Anche in questo esercizio le media-query e l'approccio Mobile First mi hanno dato una mano a gestire il layout responsive, inoltre tramite i vh e i vw abbiamo fissato la sidebar sulla sinistra, il mediaplayer in basso e reso scrollabile il main.
 
-🖇️ Repository:
+🔗 Repository:
 https://github.com/cyberfolk/web-app-spotify.git
