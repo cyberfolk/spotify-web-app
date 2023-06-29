@@ -2,7 +2,7 @@
 
 **Initial commit**: 22/02/23
 
-**Tecnologie:** html, css, flex e @media-query.
+**Tecnologie:** HTML, CSS, Flex e @media-query.
 
 🎵 Vi presento Spotify, la mia prima web app per Boolean.
 
