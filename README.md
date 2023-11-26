@@ -4,9 +4,10 @@
 
 **Tecnologie:** HTML, CSS, Flex e @media-query.
 
-🎵 Vi presento Spotify, la mia prima web app per Boolean.
+**Info**: 🎵 Meet Spotify, my first web app for Boolean. 
+Also in this exercise, the media queries and the Mobile First approach gave me a hand in managing the responsive layout, furthermore, through the vh and vw we fixed the sidebar on the left, the media player at the bottom, and made the main scrollable.
 
-Anche in questo esercizio le media-query e l'approccio Mobile First mi hanno dato una mano a gestire il layout responsive, inoltre tramite i vh e i vw abbiamo fissato la sidebar sulla sinistra, il mediaplayer in basso e reso scrollabile il main.
+## Video Demo
 
 https://github.com/cyberfolk/web-app-spotify/assets/114855536/e0d93860-9b18-4a43-aa51-7119b0f92b71
 
